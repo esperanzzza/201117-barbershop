@@ -37,11 +37,11 @@
       </div>
     </header>
 
-    <div class="container">
+    <main class="container">
       <div class="logo">
         <img src="img/logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
       </div>
-      <section class="features-row clearfix">
+      <div class="features clearfix">
         <div class="features-item">
           <div class="features-title">Быстро</div>
           <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
@@ -54,9 +54,9 @@
           <div class="features-title">Дорого</div>
           <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
         </div>
-      </section>
+      </div>
       <div class="index-content clearfix">
-        <section class="content-column-left">
+        <div class="content-column-left">
           <h2 class="content-column-title">Новости</h2>
           <ul class="news-preview">
             <li>
@@ -69,8 +69,8 @@
             </li>
           </ul>
           <a href="#" class="btn">Все новости</a>
-        </section>
-        <section class="content-column-right">
+        </div>
+        <div class="content-column-right">
           <h2 class="content-column-title">Фотогалерея</h2>
           <div class="gallery">
             <figure class="gallery-content">
@@ -79,10 +79,10 @@
             <button class="btn gallery-prev">Назад</button>
             <button class="btn gallery-next">Вперед</button>
           </div>
-        </section>
+        </div>
       </div>
       <div class="index-content clearfix">
-        <section class="content-column-left">
+        <div class="content-column-left">
           <div class="main-contacts">
             <h2 class="content-column-title">Контактная информация</h2>
             <p>
@@ -98,12 +98,12 @@
             <a href="#" class="btn">Как проехать</a>
             <a href="#" class="btn">Обратная связь</a>
           </div>
-        </section>
-        <section class="content-column-right">
+        </div>
+        <div class="content-column-right">
           <div class="appointment-form">
             <h2 class="content-column-title">Записаться</h2>
             <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-            <form action="/echo" method="post">
+            <form class="appointment-form" action="/echo" method="post">
               <input type="date" name="date" value="" placeholder="Дата">
               <input type="time" name="time" value="" placeholder="Время">
               <input type="text" name="name" value="" placeholder="Ваше имя">
@@ -111,9 +111,9 @@
               <button type="submit" class="btn">Отправить</button>
             </form>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </main>
     <footer class="main-footer">
       <div class="container clearfix">
         <section class="footer-contacts">
@@ -123,9 +123,9 @@
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
-          <a href="#" class="social-btn social-btn-vk"></a>
-          <a href="#" class="social-btn social-btn-fb"></a>
-          <a href="#" class="social-btn social-btn-inst"></a>
+          <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+          <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+          <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
         </section>
         <section class="footer-copyright">
           <p>Дизайн сайта:</p>
