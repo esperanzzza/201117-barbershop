@@ -54,7 +54,9 @@
         <a>Средства для ухода</a>
       </li>
     </ul>
-    <form class="item-description" action="/echo" method="post">
+    <div class="catalogue-wrapper">
+      <div class="filter-column">
+    <form class="range-filter" action="/echo" method="post">
       <div class="producers">
         <fieldset>
           <legend>Производители</legend>
@@ -103,6 +105,8 @@
       </div>
       <button type="submit">Показать</button>
     </form>
+  </div>
+  <div class="goods-column">
     <div class="item-catalogue clearfix">
       <article class="item-description">
         <div class="image">
@@ -190,6 +194,8 @@
       </div>
     </div>
   </div>
+  </div>
+</div>
 
   <footer class="main-footer">
     <div class="container clearfix">
