@@ -85,16 +85,15 @@ body.main-page {
 .login:hover {
   background: #242424;
 }
-.login::before {
+.login:before {
   content: "";
   position: absolute;
-  top: 28px;
-  left: 20px;
   width: 18px;
-  height: 18px;
-  background: transparent url("img/sprite.png") no-repeat;
-  background-position: 0 -212px;
-  opacity: .3;
+  height: 16px;
+  background: url("../img/icons/icon-login.png") no-repeat;
+  margin-left: -30px;
+  margin-top: 5px;
+  opacity: 0.3;
 }
 .login:hover:before {
   opacity: 1;
@@ -452,6 +451,13 @@ footer.item {
 }
 .social-btn-inst {
   margin-right: 0;
+}
+.social-btn-inst:after {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: url("../img/icons/instagram-icon.png") no-repeat 50% 0;
 }
 .footer-copyright {
   float: right;
