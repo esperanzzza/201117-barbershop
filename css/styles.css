@@ -26,7 +26,6 @@
   content: "\25cf";
 }
 body {
-  min-width: 960px;
   margin: 0;
   padding: 0;
   background: #141414;
@@ -426,7 +425,7 @@ label {
   padding-bottom: 17px;
   cursor: pointer;
 }
-input[type="radio"], input[type="checkbox"] {
+input[type="checkbox"],input[type="radio"] {
   display: none;
 }
 input[type="checkbox"]+ label span {
@@ -440,11 +439,14 @@ input[type="checkbox"]+ label span {
 input[type="checkbox"]+ label:hover {
   color: #663d15;
 }
+input[type="checkbox"]:disabled + label {
+  color: #aeacaa;
+}
 input[type="checkbox"]:checked+ label span {
   background: url("../img/icons/checkbox-checked.png") left top no-repeat;
 }
-input[type="checkbox"]:checked+ label span:hover {
-  color: #663d15;
+input[type="checkbox"]:disabled+ label span {
+  background: url("../img/icons/checkbox-disabled.png") left top no-repeat;
 }
 input[type="radio"]+ label:before {
   content: "\25cb";
