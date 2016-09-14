@@ -7,8 +7,13 @@ $(document).ready(function() {
     event.preventDefault();
     $('.modal-content-login').show('slow');
   });
+  $('.animated').on('mouseover', function() {
+    $(this).addClass('pulse');
+  }).on('mouseleave', function() {
+    $(this).removeClass('pulse');
+  });
   $('.modal-overlay').click(function() {
-    $('.modal-overlay').hide('slow'),
+    $(this).hide('slow'),
       $('.modal-content-login').hide('slow');
   });
   $('.modal-content-close').click(function() {

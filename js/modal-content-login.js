@@ -8,7 +8,7 @@ $(document).ready(function() {
     $('.modal-content-login').fadeTo('slow', 1);
   });
   $('.modal-overlay').click(function() {
-    $('.modal-overlay').hide(),
+    $(this).hide(),
       $('.modal-content-login').fadeTo('slow', 0);
   });
   $('.modal-content-close').click(function() {
