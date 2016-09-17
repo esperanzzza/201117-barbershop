@@ -1,10 +1,8 @@
 $(document).ready(function() {
   $('.login').click(function() {
-    event.preventDefault();
     $('.modal-overlay').show('slow');
   });
   $('.login').click(function() {
-    event.preventDefault();
     $('.modal-content-login').show('slow');
   });
   $('.animated').on('mouseover', function() {
