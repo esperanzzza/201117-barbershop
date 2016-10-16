@@ -1,1 +1,2 @@
-Training project at HTML Academy
+#**"Barbershop Borodinski"**
+##HTML Academy training project
