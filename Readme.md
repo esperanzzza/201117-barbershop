@@ -1,2 +1,2 @@
 #**"Barbershop Borodinski"**
-##HTML Academy training project
+##https://esperanzzza.github.io/201117-barbershop/
